@@ -52,7 +52,7 @@ def PatternUnlock(N, hits):
                     elif hits[i+1] == 6 or hits[i+1] == 7:
                         c += 2
                     else:
-                        c += 1.41
+                        c += diag
             elif hits[i] == 5:
                 if N == i+1:
                     break
